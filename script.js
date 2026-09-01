@@ -1,3 +1,6 @@
+var apiLink ="https://fakestoreapi.com/products/"
+
+
 /*🔴 Final Task — Mini Fake Store Website
 Ask students to build a complete Fake Store Product Page using the same API.
 Concepts they must use
@@ -13,7 +16,7 @@ Concepts they must use
 10.	addEventListener()
 */
 /* 🔴 Final Task — Mini Fake Store Website */
-var apiLink ="https://fakestoreapi.com/products/"
+
 fetch(apiLink).then((data)=>{
     return data.json()
 })
